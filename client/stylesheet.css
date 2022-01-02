@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  background: #fafafa;
+}
+
+body,
+h1,
+h2,
+p,
+a,
+input {
+  color: #555;
+  font-family: Consolas, Arial;
+  text-decoration: none;
+}
+
+.container {
+  width: 90vw;
+  margin: 20px auto;
+  box-shadow: thin solid black;
+}
+
+.container .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h1,
+.card p {
+  margin: 20px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.fas {
+  margin: 10px;
+}
